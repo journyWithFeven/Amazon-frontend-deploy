@@ -1,0 +1,72 @@
+.settingsPageContainer {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  color: rgb(15, 17, 17);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.languageList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.languageList li {
+  margin: 5px 0;
+  font-size: 13px;
+  color: #444;
+  font-weight: 400;
+}
+
+.languageList i {
+  margin-right: 5px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.currencySettings {
+  margin-bottom: 20px;
+}
+
+.dropdownButton {
+  font-size: 13px;
+  color: #0066c0;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.cancelButton,
+.saveChangesButton,
+.signInButton {
+  font-size: 13px;
+  color: #0066c0;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.recommendations {
+  margin-top: 20px;
+}

@@ -1,0 +1,104 @@
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.signInButton {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  color: #111;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.signInButton:hover {
+  background-color: #e1b645;
+}
+
+.separator {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+.separatorText {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.zipCodeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.zipInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.applyButton {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  color: #111;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.applyButton:hover {
+  background-color: #e1b645;
+}
+
+.countryContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.countrySelect {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.doneButton {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  color: #111;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.doneButton:hover {
+  background-color: #e1b645;
+}

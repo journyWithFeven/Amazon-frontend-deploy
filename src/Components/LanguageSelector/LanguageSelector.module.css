@@ -1,0 +1,82 @@
+.languageSelector {
+  position: relative;
+  display: inline-block;
+}
+
+.language {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.flag {
+  width: 20px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+.languageName {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.dropdownArrow {
+  display: flex;
+  align-items: center;
+}
+
+.languageDropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.languageDropdown.open {
+  display: block;
+}
+
+.navText {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.currencyInfo, .shoppingInfo {
+  margin: 10px 0;
+}
+
+.changeCurrency {
+  font-weight: bold;
+}
+
+.icpFlyoutLearnMore, .icpFlyoutChange, .icpMktChangeLnk {
+  color: #007185;
+  text-decoration: none;
+}
+
+.icpFlyoutLearnMore:hover, .icpFlyoutChange:hover, .icpMktChangeLnk:hover {
+  text-decoration: underline;
+}
